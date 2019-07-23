@@ -49,13 +49,13 @@ export default new Vuex.Store({
             if(res.status === 201){
                 context.commit('add',res.data);
             }
-        }
-        // async updateItem(context,todo){
-        //     const res = await API.editItem(todo);
-        //     if(res.status === 200){
-        //         context.commit('editItem',-1);
-        //     }
-        // },
+        },
+        async updateItem(context,todo){
+            const res = await API.finishEdit(todo);
+            if(res.status === 200){
+                context.commit('editItem',-1);
+            }
+        },
 
     }
 

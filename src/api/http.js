@@ -16,22 +16,22 @@ export default {
         return res;
     },
 
-    // async getItems() {
-    //     const res = axios.get('/api/items');
-    //     return res;
-    // },
+    async getItems() {
+        const res = axios.get('/api/items');
+        return res;
+    },
 
-    // async editItem(data) {
-    //     const res = await axios({
-    //         url: '/api/items/'+data.id,
-    //         method: 'put',
-    //         data: JSON.stringify(data),
-    //         headers: {
-    //             'Content-Type': 'application/json'
-    //         }
-    //     });
-    //     return res;
-    // },
+    async finishEdit(data) {
+        const res = await axios({
+            url: '/api/items/'+data.id,
+            method: 'put',
+            data: JSON.stringify(data),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+        return res;
+    },
 
     
 

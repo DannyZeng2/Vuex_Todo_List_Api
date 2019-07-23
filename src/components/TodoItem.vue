@@ -30,7 +30,7 @@ export default {
     },
 
     finishEdit(id) {
-      this.$store.commit("finishEdit", id);
+      this.$store.dispatch("updateItem", id);
     }
   }
 };
