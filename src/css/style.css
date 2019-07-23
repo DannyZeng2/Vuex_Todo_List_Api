@@ -1,0 +1,77 @@
+.outerdiv{
+    padding:10px 10px 20px 10px;
+    width:480px;
+    border-radius:5px;
+    -moz-border-radius:15px;
+    margin:0 auto;
+    margin-top:10px;
+    background-color:lightgray
+}
+
+.rootdiv{
+    text-align: left;
+    padding:10px 10px 10px 20px;
+    width:430px;
+    border-radius:10px;
+    -moz-border-radius:25px;
+    margin:0 auto;
+    margin-top:10px;
+    background-color: white
+}
+
+#addBtn{
+    color: white;
+    font-size: 15px;
+    border-radius:10px;
+    border: none;
+    width:60px;
+    height:38px;
+    background-color: #fc999a;
+}
+#additem{
+    width:350px;
+    height:30px;
+  
+}
+
+.finishItem{
+    text-decoration:line-through;
+}
+
+
+.itemstatus{
+    text-align: right;
+}
+
+.item{
+    padding:5px 0px;
+}
+
+p{
+    line-height:0px;
+    font-size: 30px;
+    font-weight:800 ;
+}
+
+i{
+    font-weight:600;
+}
+
+span{
+    font-weight:500 ;
+}
+
+
+.checkbox {
+    height: 15px;
+    width: 15px; 
+}
+
+.btnState {
+    border: none;
+    background-color: white;
+    outline-color:#fc999a;
+    font-weight:600 ;
+    font-size: 15px;
+    color: #fc999a;
+} 
